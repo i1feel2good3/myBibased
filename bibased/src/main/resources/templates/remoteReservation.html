@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>main</title>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.css}" rel="stylesheet"/>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <!--<link th:href="@{bootstrap/css/bootstrap-theme.min.css}" rel="stylesheet"/>-->
+
+    <link th:href="@{/css/header.css}" rel="stylesheet"/>
+    <link th:href="@{/css/remoteReservation.css}" rel="stylesheet"/>
+
+    <script th:src="@{/webjars/jquery/jquery.min.js}" type="text/javascript"></script>
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+
+    <script th:src="@{/js/logout.js}" type='text/javascript'></script>
+    <script th:src="@{/js/remoteReservation.js}" type='text/javascript'></script>
+</head>
+<body>
+<div class="page-header">
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button id="logout" type="button" class="btn btn-default">注销</button>
+        </div>
+    </div>
+</div>
+<div class="body">
+    <!--navigation 导航-->
+    <div class="navigation">
+        <ul class="nav nav-pills">
+            <li role="presentation"><a th:href="@{/bibased/personal/info}">我的信息</a></li>
+            <li role="presentation"><a th:href="@{/bibased/user/manager}">用户管理</a></li>
+            <li role="presentation"><a href="#">历史记录</a></li>
+            <li role="presentation"><a href="#">我的消息</a></li>
+            <li role="presentation" class="active"><a href="#">远程预约</a></li>
+            <li role="presentation"><a href="#">远程视频</a></li>
+        </ul>
+    </div>
+
+    <!--远程医生界面,下有安排和修改，用的同一个div，数据不同-->
+    <div class="remoteDoctor">
+        <div class="action">
+            <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-default" id="andPlan">添加计划</button>
+                <button type="button" class="btn btn-default" id="changePlan">修改计划</button>
+            </div>
+        </div>
+        <div class="dayTime">
+            <ul>
+                <li>
+                    <span>上午</span>
+                </li>
+                <li>
+                    <span>下午</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="doctorPlan">
+            <table class="table table-bordered">
+                <tr>
+                    <th>
+                        "星期二"
+                        <p>2018-05-08</p>
+                    </th>
+                    <th>
+                        "星期二"
+                        <p>2018-05-08</p>
+                    </th>
+                    <th>
+                        "星期二"
+                        <p>2018-05-08</p>
+                    </th>
+                    <th>
+                        "星期二"
+                        <p>2018-05-08</p>
+                    </th>
+                    <th>
+                        "星期二"
+                        <p>2018-05-08</p>
+                    </th>
+                    <th>
+                        "星期二"
+                        <p>2018-05-08</p>
+                    </th>
+                    <th>
+                        "星期二"
+                        <p>2018-05-08</p>
+                    </th>
+                </tr>
+                <tr class="second">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="third">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <button type="button" id="submitPlan" class="submitPlanDoc">提交</button>
+        </div>
+
+        <div class="doctorChangePlan">
+
+        </div>
+    </div>
+
+    <!--//远程普通用户界面-->
+    <div class="remotePatient">
+
+    </div>
+
+</div>
+</body>
+</html>
+
+

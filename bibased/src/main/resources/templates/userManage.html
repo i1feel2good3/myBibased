@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>main</title>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.css}" rel="stylesheet"/>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <!--<link th:href="@{bootstrap/css/bootstrap-theme.min.css}" rel="stylesheet"/>-->
+
+    <link th:href="@{/css/header.css}" rel="stylesheet"/>
+    <link th:href="@{/css/userManage.css}" rel="stylesheet"/>
+
+    <script th:src="@{/webjars/jquery/jquery.min.js}" type="text/javascript"></script>
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+
+    <script th:src="@{/js/logout.js}" type='text/javascript'></script>
+    <script th:src="@{/js/userManage.js}" type='text/javascript'></script>
+</head>
+<body>
+<div class="page-header">
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button id="logout" type="button" class="btn btn-default">注销</button>
+        </div>
+    </div>
+</div>
+<div class="body">
+    <!--navigation 导航-->
+    <div class="navigation">
+        <ul class="nav nav-pills">
+            <li role="presentation" ><a th:href="@{/bibased/personal/info}">我的信息</a></li>
+            <li role="presentation" class="active"><a href="#">用户管理</a></li>
+            <li role="presentation"><a href="#">历史记录</a></li>
+            <li role="presentation"><a href="#">我的消息</a></li>
+            <li role="presentation"><a th:href="@{/bibased/remote/manager}">远程预约</a></li>
+            <li role="presentation"><a href="#">远程视频</a></li>
+        </ul>
+    </div>
+
+    <div class="role-navigation">
+        <ul>
+            <li class="li1">
+                <button id="superUser" type="button" class="btn btn-primary">超级管理</button>
+            </li>
+            <li class="li2">
+                <button id="doctorUser" type="button" class="btn btn-default">主治医生</button>
+            </li>
+            <li class="li3">
+                <button id="patientUser" type="button" class="btn btn-default">普通用户</button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="roleData">
+        <table class="table">
+            <!--<tr>
+                <td>ID</td>
+                <td>用户名</td>
+                <td>角色</td>
+                <td>手机</td>
+            </tr>-->
+            <tr>
+                <td>
+                    <input id="id" value="ID" readonly="readonly"/>
+                </td>
+                <td>
+                    <input id="userName" value="用户名" readonly="readonly"/>
+                </td>
+                <td>
+                    <input id="userRole" value="角色" readonly="readonly"/>
+                </td>
+                <td>
+                    <input id="phone" value="手机" readonly="readonly"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
+
+

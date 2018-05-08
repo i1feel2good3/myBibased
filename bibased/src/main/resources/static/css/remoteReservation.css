@@ -1,0 +1,39 @@
+.remoteDoctor{
+    position: absolute;
+}
+
+.dayTime{
+    margin-right: 900px;
+    float: left;
+    display: inline;
+    position: relative;
+    left: -150px;
+    top: 30px;
+}
+
+li{
+    height: 150px;
+}
+
+.doctorPlan{
+    width: 800px;
+    float: right;
+    position: relative;
+    left: -250px;
+    top: -390px;
+}
+
+.second{
+    height:140px;
+}
+
+.third{
+    height: 140px;
+}
+
+.action{
+    height: 50px;
+    position: relative;
+    top: -70px;
+    left: -295px;
+}

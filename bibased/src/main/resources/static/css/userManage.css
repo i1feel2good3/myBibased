@@ -1,0 +1,25 @@
+.role-navigation{
+    float: left;
+    display: inline;
+    margin-left: -200px;
+}
+.li1{
+    margin-top: 50px;
+}
+.li2{
+    margin-top: 50px;
+}
+.li3{
+    margin-top: 50px;
+}
+.roleData{
+    float: right;
+    margin-right: 260px;
+    margin-top: 40px;
+}
+input{
+    text-align:center;
+    border-color: floralwhite;
+}
+
+

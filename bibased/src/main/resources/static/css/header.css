@@ -1,0 +1,11 @@
+
+body{
+    text-align: center;
+}
+ul li{
+    margin-left: 350px;
+    font-size: 18px;
+}
+.col-sm-offset-2 {
+    margin-left: 50.66666667%;
+}
