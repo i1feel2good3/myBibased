@@ -6,7 +6,6 @@ $(function () {
     $.ajax({
         dataType: 'json',
         type:"get",
-        dataType:"json",
         url:"/bibased/userManager/super",
         success:function (result) {
             document.cookie = "count = 1";

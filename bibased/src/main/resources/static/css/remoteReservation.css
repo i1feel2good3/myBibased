@@ -1,5 +1,6 @@
-.remoteDoctor{
-    position: absolute;
+/*病人界面css*/
+.remotePatient{
+    /*position: absolute;*/
 }
 
 .dayTime{
@@ -15,7 +16,7 @@ li{
     height: 150px;
 }
 
-.doctorPlan{
+.patientLookPlan{
     width: 800px;
     float: right;
     position: relative;
@@ -31,9 +32,52 @@ li{
     height: 140px;
 }
 
+/*医生界面css*/
+.remoteDoctor{
+
+}
+
 .action{
     height: 50px;
     position: relative;
     top: -70px;
     left: -295px;
+}
+
+.table{
+    width:80%;
+    margin: 0 auto;
+}
+#openDiv{
+    width:20%;
+    height: 200px;
+    overflow: hidden;
+    border:solid 10px #8b95ff;
+    position: fixed;
+    top: 300px;
+    left: 800px;
+}
+
+#openFirst{
+    margin-top: 30px;
+}
+
+#openSecond{
+    position: relative;
+    top: 20px;
+}
+
+#openSecond label{
+    margin-left: -40px;
+}
+
+#openSecond div{
+    position: absolute;
+    left: 42px;
+    top: 35px;
+}
+#confirm{
+    position: absolute;
+    top: 130px;
+    left: 146px;
 }

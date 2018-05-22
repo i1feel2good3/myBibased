@@ -40,89 +40,183 @@
         </ul>
     </div>
 
-    <!--远程医生界面,下有安排和修改，用的同一个div，数据不同-->
-    <div class="remoteDoctor">
-        <div class="action">
-            <div class="btn-group" role="group" aria-label="...">
-                <button type="button" class="btn btn-default" id="andPlan">添加计划</button>
-                <button type="button" class="btn btn-default" id="changePlan">修改计划</button>
+    <!--远程用户界面-->
+    <div class="remotePatient" id="remotePatient">
+        <div id="ValidPlanDoc">
+            <div class="top" id="top">
+                <img src="">
+                <div>
+                    姓名
+                </div>
+                <div>
+                    年龄
+                </div>
+                <div>
+                    email
+                </div>
+            </div>
+            <div class="center" id="center">
+                <div>
+                    科目
+                </div>
+                <div>
+                    擅长
+                </div>
+            </div>
+            <div class="bottom" id="bottom">
+                <div>点赞</div>
+                <button>预约</button>
             </div>
         </div>
-        <div class="dayTime">
-            <ul>
-                <li>
-                    <span>上午</span>
-                </li>
-                <li>
-                    <span>下午</span>
-                </li>
-            </ul>
+        <div id="reservableDoc">
+            <div class="dayTime">
+                <ul>
+                    <li>
+                        <span>上午</span>
+                    </li>
+                    <li>
+                        <span>下午</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="patientLookPlan">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>
+                            "星期二"
+                            <p>2018-05-08</p>
+                        </th>
+                        <th>
+                            "星期二"
+                            <p>2018-05-08</p>
+                        </th>
+                        <th>
+                            "星期二"
+                            <p>2018-05-08</p>
+                        </th>
+                        <th>
+                            "星期二"
+                            <p>2018-05-08</p>
+                        </th>
+                        <th>
+                            "星期二"
+                            <p>2018-05-08</p>
+                        </th>
+                        <th>
+                            "星期二"
+                            <p>2018-05-08</p>
+                        </th>
+                        <th>
+                            "星期二"
+                            <p>2018-05-08</p>
+                        </th>
+                    </tr>
+                    <tr class="second">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="third">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!--//远程医生界面，只能看到一天的内容-->
+    <div class="remoteDoctor" id="remoteDoctor">
+        <div class="action">
+            <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-primary" id="andPlan">添加计划</button>
+                <button type="button" class="btn btn-default" id="changePlan">修改计划</button>
+                <!--<button type="button" class="btn btn-default" id="lookPlan">查看计划</button>-->
+            </div>
+        </div>
+        <div id="andPlanDiv">
+            <div class="timeDay" >
+                <input type="date" id="date" value="2018-05-10"/>
+            </div>
+            <div class="form-group ">
+                <label class="col-sm-2  control-label">上午</label>
+                <div class="col-sm-10">
+                    <select class="form-control" id="morning">
+                        <option name="code" value="00">无安排</option>
+                        <option name="code" value="11">安排2个会诊</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group ">
+                <label class="col-sm-2  control-label">下午</label>
+                <div class="col-sm-10">
+                    <select class="form-control" id="afternoon">
+                        <option name="code" value="00">无安排</option>
+                        <option name="code" value="11">安排2个会诊</option>
+                    </select>
+                </div>
+            </div>
+            <div id="submitPlan">
+                <button type="button">提交</button>
+            </div>
         </div>
 
-        <div class="doctorPlan">
-            <table class="table table-bordered">
+        <div id="changePlanDiv">
+            <table class="table">
                 <tr>
-                    <th>
-                        "星期二"
-                        <p>2018-05-08</p>
-                    </th>
-                    <th>
-                        "星期二"
-                        <p>2018-05-08</p>
-                    </th>
-                    <th>
-                        "星期二"
-                        <p>2018-05-08</p>
-                    </th>
-                    <th>
-                        "星期二"
-                        <p>2018-05-08</p>
-                    </th>
-                    <th>
-                        "星期二"
-                        <p>2018-05-08</p>
-                    </th>
-                    <th>
-                        "星期二"
-                        <p>2018-05-08</p>
-                    </th>
-                    <th>
-                        "星期二"
-                        <p>2018-05-08</p>
-                    </th>
-                </tr>
-                <tr class="second">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="third">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>
+                        <input id="id" value="ID" readonly="readonly"/>
+                    </td>
+                    <td>
+                        <input id="doctorId" value="doctorID" readonly="readonly"/>
+                    </td>
+                    <td>
+                        <input id="plan" value="计划" readonly="readonly"/>
+                    </td>
+                    <td>
+                        <input id="planTime" value="计划时间" readonly="readonly"/>
+                    </td>
+                    <td>
+                        <input  value="操作" readonly="readonly"/>
+                    </td>
                 </tr>
             </table>
-            <button type="button" id="submitPlan" class="submitPlanDoc">提交</button>
         </div>
-
-        <div class="doctorChangePlan">
-
+        <div id="openDiv">
+            <div id="openFirst">
+                <label class="col-sm-2  control-label">上午</label>
+                <div class="col-sm-10">
+                    <select class="form-control" id="openMorning">
+                        <option value="00">无安排</option>
+                        <option value="11">安排2个会诊</option>
+                    </select>
+                </div>
+            </div>
+            <div id="openSecond">
+                <label class="col-sm-2  control-label">上午</label>
+                <div class="col-sm-10">
+                    <select class="form-control" id="openMAfternoon">
+                        <option value="00">无安排</option>
+                        <option value="11">安排2个会诊</option>
+                    </select>
+                </div>
+            </div>
+            <div id="confirm">
+                <button type="button" id="alter">修改</button>
+                <button type="button" id="cancel">取消</button>
+            </div>
         </div>
     </div>
-
-    <!--//远程普通用户界面-->
-    <div class="remotePatient">
-
-    </div>
-
 </div>
 </body>
 </html>

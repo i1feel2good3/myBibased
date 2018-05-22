@@ -13,10 +13,21 @@ public class AjaxResponse {
     private final int code;
     private final String msg;
     private final Object data;
+    private final Object flag;
     private AjaxResponse(int code, String msg, Object data){
         this.code = code;
         this.msg = msg;
         this.data = data;
+        flag = null;
+    }
+    private AjaxResponse(int code, String msg, Object data,Object flag){
+        this.code = code;
+        this.msg = msg;
+        this.data = data;
+        this.flag = flag;
+    }
+    public static AjaxResponse successed(Object data,Object flag){
+        return new AjaxResponse(CODE_SUCCESS, "SUCCESS", data,flag);
     }
 
     public static AjaxResponse succss(Object data){

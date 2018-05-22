@@ -19,12 +19,27 @@ public class PlanDoctorApplicationImpl implements PlanDoctorApplication{
 	private PlanDoctorRepository planDoctorRepository;
 
 	@Override
+	public List<PlanDoctor> getDoctorAllPlan(Long docId) {
+		return planDoctorRepository.findAllByDoctorId(docId);
+	}
+
+	@Override
+	public void updatePlan(String plan, Long id) {
+		planDoctorRepository.updatePlan(plan,id);
+	}
+
+	@Override
 	public void savePlan(PlanDoctor planDoctor) {
 		planDoctorRepository.save(planDoctor);
 	}
 
 	@Override
-	public List<PlanDoctor> getPlan(Long docId, Date date) {
-		return null;
+	public PlanDoctor getOnePlan(Long docId, String date) {
+		return planDoctorRepository.findDoctorOnePlan(docId,date);
+	}
+
+	@Override
+	public PlanDoctor getDoctorTopPlan(Long docId) {
+		return planDoctorRepository.findPlanDoctorTopPlan(docId);
 	}
 }

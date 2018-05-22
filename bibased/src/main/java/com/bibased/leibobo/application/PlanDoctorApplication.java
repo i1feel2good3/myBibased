@@ -11,5 +11,11 @@ import java.util.List;
 public interface PlanDoctorApplication {
 	public void savePlan(PlanDoctor planDoctor);
 
-	public List<PlanDoctor> getPlan(Long docId,Date date);
+	public PlanDoctor getOnePlan(Long docId,String date);
+
+	public PlanDoctor getDoctorTopPlan(Long docId);
+
+	public List<PlanDoctor> getDoctorAllPlan(Long docId);
+
+	public void updatePlan(String plan,Long id);
 }
