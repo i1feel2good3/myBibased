@@ -18,4 +18,6 @@ public interface PlanDoctorApplication {
 	public List<PlanDoctor> getDoctorAllPlan(Long docId);
 
 	public void updatePlan(String plan,Long id);
+
+	public PlanDoctor getDoctorPlanById(Long id);
 }

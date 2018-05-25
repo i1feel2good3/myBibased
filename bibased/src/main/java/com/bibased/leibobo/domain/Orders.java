@@ -25,9 +25,13 @@ public class Orders extends AbstractEntity{
 	@Setter(AccessLevel.PRIVATE)
 	private Long doctorId; 			//医生id
 
+	@Column(name = "doctor_plan_id",nullable = false)
+	@Setter(AccessLevel.PRIVATE)
+	private Long planDoctorId;
+
 	@Column(name = "order_time",nullable = false)
 	@Setter(AccessLevel.PRIVATE)
-	private Date orderTime;			//预约时间，哪一天几点，默认持续一小时
+	private String orderTime;			//预约时间，哪一天几点，默认持续一小时
 
 	@Column(name = "order_status",nullable = false)
 	@Setter(AccessLevel.PRIVATE)
@@ -38,21 +42,23 @@ public class Orders extends AbstractEntity{
 	@Setter(AccessLevel.PRIVATE)
 	private Boolean done;		//预约是否完成
 
-	public Orders(){
-	}
+	public Orders(){}
 
-	public Orders(Long patientId,Long doctorId,Date orderTime){
+	public Orders(Long patientId,Long doctorId,Long planDoctorId,String orderTime){
 		Preconditions.checkArgument(patientId != null,"patientId is null");
 		Preconditions.checkArgument(doctorId != null,"doctorId is null");
+		Preconditions.checkArgument(planDoctorId != null,"orderTime is null");
 		Preconditions.checkArgument(orderTime != null,"orderTime is null");
 		init();
 		setPatientId(patientId);
 		setDoctorId(doctorId);
+		setPlanDoctorId(planDoctorId);
 		setOrderTime(orderTime);
 	}
 
 	@Override
 	public void init() {
+		super.init();
 		setOrderStatus(OrderStatus.ENABLE);
 		setDone(false);
 	}

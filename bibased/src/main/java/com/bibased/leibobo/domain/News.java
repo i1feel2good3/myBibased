@@ -59,15 +59,24 @@ public class News extends AbstractEntity{
 
 	@Override
 	public void init() {
+		super.init();
 		setNewsType(NewsType.NOTICE);
 		setRead_status(false);
 	}
 
-	public void changeNewsType(){
+	public void setNewsPrivateLetter(){
 		setNewsType(NewsType.PERSONAL_LETTER);
 	}
 
-	public void isRead(){
+	public void setRead(){
 		setRead_status(true);
+	}
+
+	public Boolean isRead(){
+		if (this.getRead_status() == true){
+			return true;
+		}else {
+			return false;
+		}
 	}
 }

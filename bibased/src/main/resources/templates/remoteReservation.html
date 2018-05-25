@@ -42,9 +42,10 @@
 
     <!--远程用户界面-->
     <div class="remotePatient" id="remotePatient">
-        <div id="ValidPlanDoc">
+        <div class="validDocTable">
+            <!--<div class="ValidPlanDoc">
             <div class="top" id="top">
-                <img src="">
+                <img th:src="@{/img/doctor.jpg}"/>
                 <div>
                     姓名
                 </div>
@@ -55,20 +56,25 @@
                     email
                 </div>
             </div>
-            <div class="center" id="center">
-                <div>
-                    科目
+            <div class="center">
+                <div class="subject" >
+                    <span>科目：</span>
+                    <p>妇科</p>
                 </div>
-                <div>
-                    擅长
+                <div class="fields" >
+                    <span>擅长：</span>
+                    <p>这里通过先设置了该对象四边为黑色1px虚线边框，紧接着又设置一边边线为0的设置，这样相当于设置了3边的边框虚线属性，但是这里注意边框属性设置前后顺序</p>
                 </div>
             </div>
-            <div class="bottom" id="bottom">
-                <div>点赞</div>
+            <div class="bottom">
                 <button>预约</button>
             </div>
+        </div>-->
         </div>
         <div id="reservableDoc">
+            <div id="orderHead">
+                <button id="cancelOrder" class="btn btn-default">取消</button>
+            </div>
             <div class="dayTime">
                 <ul>
                     <li>
@@ -81,54 +87,84 @@
             </div>
 
             <div class="patientLookPlan">
-                <table class="table table-bordered">
-                    <tr>
-                        <th>
-                            "星期二"
+                <table class="table table-bordered" id="orderTable">
+                    <!--<tr class="first">
+                        <th scope="col">
+                            <span>星期一</span>
                             <p>2018-05-08</p>
                         </th>
-                        <th>
-                            "星期二"
+                        <th scope="col">
+                            <span>星期一</span>
                             <p>2018-05-08</p>
                         </th>
-                        <th>
-                            "星期二"
+                        <th scope="col">
+                            <span>星期一</span>
                             <p>2018-05-08</p>
                         </th>
-                        <th>
-                            "星期二"
+                        <th scope="col">
+                            <span>星期一</span>
                             <p>2018-05-08</p>
                         </th>
-                        <th>
-                            "星期二"
+                        <th scope="col">
+                            <span>星期一</span>
                             <p>2018-05-08</p>
                         </th>
-                        <th>
-                            "星期二"
+                        <th scope="col">
+                            <span>星期一</span>
                             <p>2018-05-08</p>
                         </th>
-                        <th>
-                            "星期二"
+                        <th scope="col">
+                            <span>星期一</span>
                             <p>2018-05-08</p>
                         </th>
-                    </tr>
+                    </tr>-->
                     <tr class="second">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_0" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_1" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_2" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_3" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_4" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_5" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_6" value=""/>
+                        </td>
                     </tr>
+                    <!--从name的值获得是哪一列，即哪一天-->
+                    <!--value 的格式为： 列_行_日期_-->
                     <tr class="third">
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_0" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_1" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_2" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_3" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_4" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_5" value=""/>
+                        </td>
+                        <td class="orderThis">
+                            <input type="hidden" name="col_6" value=""/>
+                        </td>
                     </tr>
                 </table>
             </div>

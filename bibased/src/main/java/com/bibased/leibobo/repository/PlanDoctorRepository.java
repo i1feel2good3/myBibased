@@ -32,8 +32,5 @@ public interface PlanDoctorRepository extends JpaRepository<PlanDoctor, Long> {
 	//查询医生的计划（在查出来之后进行过滤无效的）
 	public List<PlanDoctor> findAllByDoctorId(Long doctorId);
 
-	/*//按照create_time查找最近一周添加的所有计划，显示给用户
-	@Query(value = "select * from b_plan_doctor where DATE_SUB(CURDATE(), INTERVAL 7 DAY) <= date(plan_time)",nativeQuery = true)
-	public List<PlanDoctor> findAllPlanDoctor2();*/
-
+	public PlanDoctor findById(Long id);
 }

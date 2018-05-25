@@ -9,6 +9,7 @@ import lombok.Setter;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -78,5 +79,35 @@ public class PlanDoctor extends AbstractEntity{
 		}else {
 			return false;
 		}
+	}
+
+	/**
+	 * 1.根据计划的改变时间，修改计划
+	 * @param setZero
+	 * @return
+	 */
+	public PlanDoctor changePlan(Integer setZero){
+		char[] status = this.doctorPlan.toCharArray();
+		if (setZero == 1){
+			status[0] = '0';
+			String newDoctorPlan = Arrays.toString(status).replaceAll("[\\[\\]\\s,]", "");
+			setDoctorPlan(newDoctorPlan);
+		}
+		if (setZero == 2){
+			status[1] = '0';
+			String newDoctorPlan = Arrays.toString(status).replaceAll("[\\[\\]\\s,]", "");
+			setDoctorPlan(newDoctorPlan);
+		}
+		if (setZero == 3){
+			status[2] = '0';
+			String newDoctorPlan = Arrays.toString(status).replaceAll("[\\[\\]\\s,]", "");
+			setDoctorPlan(newDoctorPlan);
+		}
+		if (setZero == 4){
+			status[3] = '0';
+			String newDoctorPlan = Arrays.toString(status).replaceAll("[\\[\\]\\s,]", "");
+			setDoctorPlan(newDoctorPlan);
+		}
+		return this;
 	}
 }

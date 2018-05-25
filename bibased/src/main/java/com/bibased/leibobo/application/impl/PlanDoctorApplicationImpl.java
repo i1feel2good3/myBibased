@@ -29,6 +29,11 @@ public class PlanDoctorApplicationImpl implements PlanDoctorApplication{
 	}
 
 	@Override
+	public PlanDoctor getDoctorPlanById(Long id) {
+		return planDoctorRepository.findById(id);
+	}
+
+	@Override
 	public void savePlan(PlanDoctor planDoctor) {
 		planDoctorRepository.save(planDoctor);
 	}

@@ -25,6 +25,7 @@ import java.util.stream.Collectors;
 
 /**
  * 1.返回远程预约界面
+ * 2.包括医生和普通用户的
  * Created by booLei on 2018/5/5.
  */
 @RestController
@@ -185,11 +186,17 @@ public class RemoteReservationController {
 	@RequestMapping(value = "/remote/getDocValidPlan",method = RequestMethod.GET)
 	public AjaxResponse getDocValidPlan(Long docId,HttpSession session){
 		if (session.getAttribute(WebSecurityConfig.SESSION_KEY) != null){
-			List<PlanDoctor> planDoctorList = planDoctorApplication.getDoctorAllPlan(docId);
-			planDoctorList = planDoctorList.stream().filter(
-					planDoctor -> planDoctor.getInSevenPlan(planDoctor)
-			).collect(Collectors.toList());
-			return AjaxResponse.succss(planDoctorList);
+			if (docId != null){
+				List<PlanDoctor> planDoctorList = planDoctorApplication.getDoctorAllPlan(docId);
+				planDoctorList = planDoctorList.stream().filter(
+						planDoctor -> planDoctor.getInSevenPlan(planDoctor)
+				).collect(Collectors.toList());
+				System.out.println("right!"+planDoctorList.size());
+				return AjaxResponse.succss(planDoctorList);
+			}else {
+				return AjaxResponse.error("出错了！");
+			}
+
 		}else {
 			return AjaxResponse.failure("请登录");
 		}
