@@ -25,6 +25,8 @@ $(function () {
                     $("#reservableDoc").hide();
                     var item;
                     $.each(data,function (i,validDoctor) {
+                        //var docInfo;
+                        //docInfo = validDoctor["id"]+"_"+validDoctor["realName"];
                         item=
                             /*"<tr><td>"+validDoctor['id']+"</td><td>"+validDoctor['doctorId']+"</td>" +
                             "<td>"+validDoctor['doctorPlan']+"</td><td>"+validDoctor['planTime']+"</td>" +
@@ -44,6 +46,7 @@ $(function () {
                             "</div> </div> " +
                             "<div class='bottom'> " +
                             "<button type='button' class='btn btn-default' onclick='orderPlan("+validDoctor['id']+")'>预约</button> " +
+                            //"<button type='button' class='btn btn-default' onclick='goPrivateLetter("+validDoctor['id']+","+validDoctor['realName']+")'>私信</button>"+
                             "<button type='button' class='btn btn-default' onclick='goPrivateLetter("+validDoctor['id']+")'>私信</button>"+
                             "</div> </div>"
                         //document.getElementById("")
@@ -546,6 +549,12 @@ function getWeek(addDayCount) {
 }
 
 function goPrivateLetter(doctorId) {
-    window.open("/bibased/news/write");
+
+    /*doctorInfo["doctorId"] = doctorId;
+    doctorInfo["realName"] = realName;*/
+    //alert(doctorInfo);
+    localStorage.setItem("doctorId",doctorId);
+    //localStorage.setItem("doctorInfo",doctorInfo);
+    window.open("/bibased/news/writeLetter");
 }
 

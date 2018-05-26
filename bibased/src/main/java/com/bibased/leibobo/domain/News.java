@@ -53,7 +53,7 @@ public class News extends AbstractEntity{
 		init();
 		setFromUserId(fromUserId);
 		setToUserId(toUserId);
-		setNewsContent(newsTheme);
+		setNewsTheme(newsTheme);
 		setNewsContent(newsContent);
 	}
 

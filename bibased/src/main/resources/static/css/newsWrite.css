@@ -1,4 +1,25 @@
 .private-new{
     margin:0 auto;
     width: 800px;
+    padding-top: 100px;
 }
+
+#newsType{
+    width: 100px;
+}
+#newsSend{
+    position: absolute;
+}
+
+#sendToUser{
+    position: relative;
+    left: 0px;
+}
+
+.pull-right{
+    width: 700px;
+    position: relative;
+    left: 20px;
+}
+
+

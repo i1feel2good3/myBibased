@@ -7,7 +7,6 @@ import lombok.Data;
  */
 @Data
 public class NewsSaveModel {
-	private Long fromUserId;
 	private Long toUserId;
 	private String newsTheme;
 	private String newsContent;

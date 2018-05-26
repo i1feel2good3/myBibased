@@ -1,5 +1,6 @@
 package com.bibased.leibobo.controller;
 
+import com.bibased.leibobo.Model.IdAndRole;
 import com.bibased.leibobo.Model.NewsSaveModel;
 import com.bibased.leibobo.application.NewsApplication;
 import com.bibased.leibobo.config.WebSecurityConfig;
@@ -24,7 +25,7 @@ public class NewsWriteController {
 	@Autowired
 	private NewsApplication newsApplication;
 
-	@RequestMapping(value = "/news/write",method = RequestMethod.GET)
+	@RequestMapping(value = "/news/writeLetter",method = RequestMethod.GET)
 	public ModelAndView newsWrite(){
 		ModelAndView modelAndView = new ModelAndView("newsWrite");
 		return modelAndView;
@@ -33,7 +34,8 @@ public class NewsWriteController {
 	@RequestMapping(value = "/news/save",method = RequestMethod.POST)
 	public AjaxResponse newsSave(@RequestBody NewsSaveModel newsSaveModel, HttpSession session){
 		if (session.getAttribute(WebSecurityConfig.SESSION_KEY) != null){
-			News news = new News(newsSaveModel.getFromUserId(),newsSaveModel.getToUserId(),
+			IdAndRole idAndRole = (IdAndRole) session.getAttribute(WebSecurityConfig.SESSION_KEY);
+			News news = new News(idAndRole.getUserId(),newsSaveModel.getToUserId(),
 					newsSaveModel.getNewsTheme(),newsSaveModel.getNewsContent());
 			news.setNewsPrivateLetter();
 			newsApplication.saveNews(news);

@@ -6,6 +6,8 @@ import com.bibased.leibobo.repository.NewsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by boboLei on 2018/4/28.
  */
@@ -18,5 +20,16 @@ public class NewsApplicationImpl implements NewsApplication {
 	@Override
 	public void saveNews(News news) {
 		newsRepository.save(news);
+	}
+
+	@Override
+	public List<News> getNoticeList(Long userId) {
+
+		return null;
+	}
+
+	@Override
+	public List<News> getLetterList(Long userId) {
+		return null;
 	}
 }
