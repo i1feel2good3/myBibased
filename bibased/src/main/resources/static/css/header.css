@@ -2,7 +2,7 @@
 body{
     text-align: center;
 }
-ul li{
+.navigation li{
     margin-left: 350px;
     font-size: 18px;
 }

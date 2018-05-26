@@ -39,19 +39,32 @@ public class News extends AbstractEntity{
 
 	@Column(name = "read_status",nullable = false)
 	@Setter(AccessLevel.PRIVATE)
-	private Boolean Read_status;
+	private Boolean readStatus;
 
 	public News(){
 	}
 
+	//创建私信
 	public News(Long fromUserId,Long toUserId,String newsTheme,String newsContent){
 		Preconditions.checkArgument(fromUserId != null,"fromUserId is null");
 		Preconditions.checkArgument(toUserId != null,"toUserId is null");
 		Preconditions.checkArgument(newsTheme != null,"newsTheme is null");
-		Preconditions.checkArgument(newsContent != null,"newsTheme is null");
+		Preconditions.checkArgument(newsContent != null,"newsContent is null");
+		setNewsPrivateLetter();
+		setReadStatus(false);
+		setFromUserId(fromUserId);
+		setToUserId(toUserId);
+		setNewsTheme(newsTheme);
+		setNewsContent(newsContent);
+	}
+	//创建系统通知
+	public News(Long toUserId,String newsTheme,String newsContent){
+		Preconditions.checkArgument(toUserId != null,"toUserId is null");
+		Preconditions.checkArgument(newsTheme != null,"newsTheme is null");
 		Preconditions.checkArgument(newsContent != null,"newsContent is null");
 		init();
-		setFromUserId(fromUserId);
+		setDefaultFromUserId();
+		setReadStatus(false);
 		setToUserId(toUserId);
 		setNewsTheme(newsTheme);
 		setNewsContent(newsContent);
@@ -61,19 +74,22 @@ public class News extends AbstractEntity{
 	public void init() {
 		super.init();
 		setNewsType(NewsType.NOTICE);
-		setRead_status(false);
 	}
 
 	public void setNewsPrivateLetter(){
 		setNewsType(NewsType.PERSONAL_LETTER);
 	}
+	//设置默认的系统消息的来源，为0
+	private void setDefaultFromUserId(){
+		setFromUserId((long) 0);
+	}
 
 	public void setRead(){
-		setRead_status(true);
+		setReadStatus(true);
 	}
 
 	public Boolean isRead(){
-		if (this.getRead_status() == true){
+		if (this.getReadStatus() == true){
 			return true;
 		}else {
 			return false;

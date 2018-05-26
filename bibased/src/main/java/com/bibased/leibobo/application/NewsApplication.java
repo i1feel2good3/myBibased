@@ -12,5 +12,11 @@ public interface NewsApplication {
 
 	public List<News> getNoticeList(Long userId);
 
-	public List<News> getLetterList(Long userId);
+	public List<News> getLetterReceivedList(Long userId);
+
+	public List<News> getLetterSendList(Long userId);
+
+	public News getLetterDeatil(Long newsId);
+
+	public void updateLetterReadStatus(Long newsId);
 }

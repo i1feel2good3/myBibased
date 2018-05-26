@@ -24,12 +24,26 @@ public class NewsApplicationImpl implements NewsApplication {
 
 	@Override
 	public List<News> getNoticeList(Long userId) {
-
-		return null;
+		return newsRepository.findAllNotice(userId);
 	}
 
 	@Override
-	public List<News> getLetterList(Long userId) {
-		return null;
+	public List<News> getLetterReceivedList(Long userId) {
+		return newsRepository.findAllReceivedLetter(userId);
+	}
+
+	@Override
+	public List<News> getLetterSendList(Long userId) {
+		return newsRepository.findAllSendLetter(userId);
+	}
+
+	@Override
+	public News getLetterDeatil(Long newsId) {
+		return newsRepository.findAllById(newsId);
+	}
+
+	@Override
+	public void updateLetterReadStatus(Long newsId) {
+		newsRepository.updateReadStatus(newsId);
 	}
 }

@@ -6,6 +6,8 @@ import com.bibased.leibobo.repository.OrdersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by boboLei on 2018/4/28.
  */
@@ -17,5 +19,15 @@ public class OrdersApplicationImpl implements OrdersApplication {
 	@Override
 	public void saveOrder(Orders order) {
 		ordersRepository.save(order);
+	}
+
+	@Override
+	public List<Orders> getListPatientOrders(Long patientId) {
+		return ordersRepository.listPatientOrders(patientId);
+	}
+
+	@Override
+	public List<Orders> getListDoctorOrders(Long doctorId) {
+		return ordersRepository.listDoctorOrders(doctorId);
 	}
 }

@@ -5,6 +5,7 @@ $(function () {
    // $("#sendToUser").val(localStorage.getItem("doctorInfo").doctorId+"号医生"+localStorage.getItem("doctorInfo").realName);
     $("#sendToUser").val(localStorage.getItem("doctorId")+"号医生");
     $("#sendToUser").attr("readonly","readonly");
+    localStorage.removeItem("doctorId");
 });
 
 $(function () {

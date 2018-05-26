@@ -1,0 +1,44 @@
+.newsType{
+    width: 80%;
+    margin: 0 auto;
+    height: 130px;
+}
+
+.newsType li{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 150px;
+}
+
+.newsList{
+    width:80%;
+    margin:0 auto;
+}
+
+.noticeList li{
+    height: 50px;
+    margin-bottom: 0px;
+    /*list-style-type:none;*/
+    /*text-decoration:underline;*/
+    border-bottom: 1px dashed #bbbbbb;
+    margin-top: 10px;
+}
+
+.left{
+    display: inline;
+    float: left;
+}
+
+.left img{
+    width: 40px;
+    height: 40px;
+}
+
+.right{
+    display: inline;
+    position: relative;
+    right: -300px;
+}
+
+
