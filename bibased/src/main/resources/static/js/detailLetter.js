@@ -2,11 +2,6 @@
  * Created by boboLei on 2018/5/26.
  */
 $(function () {
-    localStorage.setItem("fromUserId",data.fromUserId);
-    localStorage.setItem("toUserId",data.toUserId);
-    localStorage.setItem("newsTheme",data.newsTheme);
-    localStorage.setItem("newsContent",data.newsContent);
-
     $("#letterTheme").val(localStorage.getItem("newsTheme"));
     $("#letterTheme").attr("readonly","readonly");
     localStorage.removeItem("newsTheme");

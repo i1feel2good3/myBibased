@@ -13,4 +13,6 @@ public interface OrdersApplication {
 	public List<Orders> getListPatientOrders(Long patientId);
 
 	public List<Orders> getListDoctorOrders(Long doctorId);
+
+	public List<Orders> getAllOrders();
 }

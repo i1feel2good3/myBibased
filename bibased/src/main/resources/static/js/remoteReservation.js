@@ -55,7 +55,9 @@ $(function () {
                 }
 
                 if (userInfo.roleCode == 0){
-                    //初始化超及管理员界面
+                    var superItem;
+                    superItem = "<p>您是管理员，请换普通用户身份或者医生来预约</p>"
+                    $('.validDocTable').append(superItem);
                 }
             }else {
                 alert(result.msg);
@@ -118,6 +120,10 @@ $(function () {
                 $("#openDiv").hide();
                 $("#changePlanDiv").show();
                 var data = result.data;
+                if (data == ""){
+                    var remind = "<p>您还没有可以修改的计划，请先添加计划！</p>"
+                    $(".table").append(remind)
+                }
                 var item;
                 $.each(data,function (i,personalPlan) {
                     item=

@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>writeNews</title>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.css}" rel="stylesheet"/>
+    <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <script th:src="@{/webjars/jquery/jquery.min.js}" type="text/javascript"></script>
+    <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
 
+    <script th:src="@{/js/history.js}" type="text/javascript"></script>
+    <script th:src="@{/js/logout.js}" type='text/javascript'></script>
+    <link th:href="@{/css/history.css}" rel="stylesheet"/>
+    <link th:href="@{/css/header.css}" rel="stylesheet"/>
+
+
+</head>
+<!--远程视频页面 -->
+<body>
+<div class="page-header">
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button id="logout" type="button" class="btn btn-default">注销</button>
+        </div>
+    </div>
+</div>
+<div class="body">
+    <div class="navigation">
+        <ul class="nav nav-pills">
+            <li role="presentation"><a th:href="@{/bibased/personal/info}">我的信息</a></li>
+            <li role="presentation"><a th:href="@{/bibased/user/manager}">用户管理</a></li>
+            <li role="presentation"><a th:href="@{/bibased/history/manager}">历史记录</a></li>
+            <li role="presentation"><a th:href="@{/bibased/news/lookLetter}">我的消息</a></li>
+            <li role="presentation"><a th:href="@{/bibased/remote/manager}">远程预约</a></li>
+            <li role="presentation" class="active"><a href="#">远程视频</a></li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>
+
+

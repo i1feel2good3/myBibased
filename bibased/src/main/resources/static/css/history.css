@@ -1,0 +1,30 @@
+.historyList{
+    width: 80%;
+    margin:0 auto;
+    position: relative;
+    top: 80px;
+}
+
+.historyList img{
+    width: 50px;
+    height: 50px;
+}
+
+.list{
+
+}
+
+.list div{
+    text-align: left;
+}
+
+.list li{
+    border-bottom: 1px dashed #bbbbbb;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+li span{
+    font-size: 16px;
+    padding-right: 5px;
+}

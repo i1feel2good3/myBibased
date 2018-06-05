@@ -13,7 +13,7 @@ $(function () {
                 var data = result.data;
                 if (data == ""){
                     var remind = "<p>您还没有通知！</p>"
-                    $(".notice-list").append(remind);
+                    $(".noticeList").append(remind);
                 }
                 var item;
                 $.each(data,function (i,newsNoticeList) {
@@ -43,17 +43,20 @@ $(function () {
 
 $(function () {
     $("#sendLetter").click(function () {
+        document.getElementById("one").className = "haha";
+        document.getElementById("three").className = "haha";
+        document.getElementById("two").className = "active";
         $.ajax({
             type:"get",
             dataType: 'json',
             url:"/bibased/news/letterSendList",
             success:function (result) {
                 if (result.code == 1){
-                    $(".notice-list").empty("");
+                    $(".noticeList").empty("");
                     var data = result.data;
                     if (data == ""){
                         var remind = "<p>您还没有通知！</p>"
-                        $(".notice-list").append(remind);
+                        $(".noticeList").append(remind);
                     }
                     var item;
                     $.each(data,function (i,letterSendList) {
@@ -78,17 +81,20 @@ $(function () {
 
 $(function () {
     $("#receivedLetter").click(function () {
+        document.getElementById("one").className = "haha";
+        document.getElementById("three").className = "active";
+        document.getElementById("two").className = "haha";
         $.ajax({
             type:"get",
             dataType: 'json',
             url:"/bibased/news/letterReceivedList",
             success:function (result) {
                 if (result.code == 1){
-                    $(".notice-list").empty("");
+                    $(".noticeList").empty("");
                     var data = result.data;
                     if (data == ""){
                         var remind = "<p>您还没有通知！</p>"
-                        $(".notice-list").append(remind);
+                        $(".noticeList").append(remind);
                     }
                     var item;
                     $.each(data,function (i,letterReceivedList) {
@@ -123,6 +129,7 @@ function letterDetails(newsId) {
                 localStorage.setItem("toUserId",data.toUserId);
                 localStorage.setItem("newsTheme",data.newsTheme);
                 localStorage.setItem("newsContent",data.newsContent);
+                alert(localStorage.getItem("fromUserId"));
                 window.open("/bibased/news/detailLetter");
             }else {
                 alert(result.msg);

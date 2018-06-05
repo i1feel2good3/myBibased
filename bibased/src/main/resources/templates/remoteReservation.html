@@ -33,7 +33,7 @@
         <ul class="nav nav-pills">
             <li role="presentation"><a th:href="@{/bibased/personal/info}">我的信息</a></li>
             <li role="presentation"><a th:href="@{/bibased/user/manager}">用户管理</a></li>
-            <li role="presentation"><a href="#">历史记录</a></li>
+            <li role="presentation"><a th:href="@{/bibased/history/manager}">历史记录</a></li>
             <li role="presentation"><a th:href="@{/bibased/news/lookLetter}">我的消息</a></li>
             <li role="presentation" class="active"><a href="#">远程预约</a></li>
             <li role="presentation"><a href="#">远程视频</a></li>
@@ -208,8 +208,25 @@
         </div>
 
         <div id="changePlanDiv">
+            <tr>
+                <td>
+                    <input id="id" value="ID" readonly="readonly"/>
+                </td>
+                <td>
+                    <input id="doctorId" value="doctorID" readonly="readonly"/>
+                </td>
+                <td>
+                    <input id="plan" value="计划" readonly="readonly"/>
+                </td>
+                <td>
+                    <input id="planTime" value="计划时间" readonly="readonly"/>
+                </td>
+                <td>
+                    <input  value="操作" readonly="readonly"/>
+                </td>
+            </tr>
             <table class="table">
-                <tr>
+                <!--<tr>
                     <td>
                         <input id="id" value="ID" readonly="readonly"/>
                     </td>
@@ -225,7 +242,7 @@
                     <td>
                         <input  value="操作" readonly="readonly"/>
                     </td>
-                </tr>
+                </tr>-->
             </table>
         </div>
         <div id="openDiv">

@@ -50,6 +50,7 @@ public class News extends AbstractEntity{
 		Preconditions.checkArgument(toUserId != null,"toUserId is null");
 		Preconditions.checkArgument(newsTheme != null,"newsTheme is null");
 		Preconditions.checkArgument(newsContent != null,"newsContent is null");
+		super.init();
 		setNewsPrivateLetter();
 		setReadStatus(false);
 		setFromUserId(fromUserId);

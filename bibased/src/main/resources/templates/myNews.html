@@ -32,7 +32,7 @@
             <ul class="nav nav-pills">
                 <li role="presentation"><a th:href="@{/bibased/personal/info}">我的信息</a></li>
                 <li role="presentation"><a th:href="@{/bibased/user/manager}">用户管理</a></li>
-                <li role="presentation"><a href="#">历史记录</a></li>
+                <li role="presentation"><a th:href="@{/bibased/history/manager}">历史记录</a></li>
                 <li role="presentation" class="active"><a href="#">我的消息</a></li>
                 <li role="presentation"><a th:href="@{/bibased/remote/manager}">远程预约</a></li>
                 <li role="presentation"><a href="">远程视频</a></li>
@@ -40,9 +40,9 @@
         </div>
         <div class="newsType">
             <ul class="nav nav-tabs">
-                <li role="presentation" class="active"><a id="notice">系统通知</a></li>
-                <li role="presentation"><a id="sendLetter">已发私信</a></li>
-                <li role="presentation"><a id="receivedLetter">已收私信</a></li>
+                <li role="presentation" class="active" id="one"><a id="notice">系统通知</a></li>
+                <li role="presentation" id="two"><a id="sendLetter">已发私信</a></li>
+                <li role="presentation" id="three"><a id="receivedLetter">已收私信</a></li>
             </ul>
         </div>
 

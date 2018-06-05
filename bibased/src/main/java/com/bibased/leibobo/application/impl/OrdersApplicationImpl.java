@@ -30,4 +30,9 @@ public class OrdersApplicationImpl implements OrdersApplication {
 	public List<Orders> getListDoctorOrders(Long doctorId) {
 		return ordersRepository.listDoctorOrders(doctorId);
 	}
+
+	@Override
+	public List<Orders> getAllOrders() {
+		return ordersRepository.findAll();
+	}
 }
