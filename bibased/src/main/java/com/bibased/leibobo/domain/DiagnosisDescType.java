@@ -8,8 +8,8 @@ import com.bibased.leibobo.domain.support.DescribeEnum;
  */
 public enum DiagnosisDescType implements CodeEnum,DescribeEnum{
 
-	DIAGNOSIS(4,"诊断书"),
-	PRESCRIPTION(5,"说明书");
+	DIAGNOSIS(4,"诊断意见"),
+	PRESCRIPTION(5,"处方说明");
 
 	private final int code;
 	private final String descr;

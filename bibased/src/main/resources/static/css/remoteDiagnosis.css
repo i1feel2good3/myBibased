@@ -1,0 +1,33 @@
+.diagnosis{
+    padding-top: 50px;
+    width:80%;
+    margin:0 auto;
+}
+
+.button{
+    width: 500px;
+    position: relative;
+    left: 500px;
+    font-size: 16px;
+}
+.title{
+    font-size: 16px;
+}
+.type{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+}
+.content{
+    height: 150px;
+}
+.pull-right{
+    width: 800px;
+    position: relative;
+    left: -160px;
+}
+.pull-left{
+    position: relative;
+    left: 70px;
+}

@@ -33,4 +33,24 @@ public class DiagnosisDesc extends AbstractEntity{
 	private String diagnosisContent;
 
 	public DiagnosisDesc(){}
+
+	public DiagnosisDesc(Long diagnosisDoctorId,Long diagnosisPatientId,String diagnosisContent){
+		init();
+		setDiagnosisDoctorId(diagnosisDoctorId);
+		setDiagnosisPatientId(diagnosisPatientId);
+		setDiagnosisContent(diagnosisContent);
+	}
+
+	public void setDiagnosisType(){
+		setDiagnosisDescType(DiagnosisDescType.DIAGNOSIS);
+	}
+
+	public void setPrescriptionType(){
+		setDiagnosisDescType(DiagnosisDescType.PRESCRIPTION);
+	}
+
+	@Override
+	public void init(){
+		super.init();
+	}
 }

@@ -15,4 +15,6 @@ public interface OrdersApplication {
 	public List<Orders> getListDoctorOrders(Long doctorId);
 
 	public List<Orders> getAllOrders();
+
+	public void updateLink(String link,Long orderId);
 }

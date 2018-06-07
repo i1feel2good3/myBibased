@@ -77,12 +77,11 @@
     display: inline;
     position: relative;
     left: -450px;
-    top: 30px;
 }
 
 #orderHead{
     position: relative;
-    top: -85px;
+    top: -130px;
     left: 192px;
 }
 

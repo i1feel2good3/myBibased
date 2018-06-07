@@ -42,6 +42,10 @@ public class Orders extends AbstractEntity{
 	@Setter(AccessLevel.PRIVATE)
 	private Boolean done;		//预约是否完成
 
+	@Column(name = "link")
+	@Setter(AccessLevel.PRIVATE)
+	private String link;
+
 	public Orders(){}
 
 	public Orders(Long patientId,Long doctorId,Long planDoctorId,String orderTime){
@@ -61,6 +65,10 @@ public class Orders extends AbstractEntity{
 		super.init();
 		setOrderStatus(OrderStatus.ENABLE);
 		setDone(false);
+	}
+
+	public void updateLink(String link){
+		setLink(link);
 	}
 
 	public void enable(){

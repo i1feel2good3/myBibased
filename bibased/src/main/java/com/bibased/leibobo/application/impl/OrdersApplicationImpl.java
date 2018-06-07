@@ -35,4 +35,9 @@ public class OrdersApplicationImpl implements OrdersApplication {
 	public List<Orders> getAllOrders() {
 		return ordersRepository.findAll();
 	}
+
+	@Override
+	public void updateLink(String link, Long orderId) {
+		ordersRepository.updateLink(link,orderId);
+	}
 }
