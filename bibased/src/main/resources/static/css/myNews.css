@@ -11,6 +11,10 @@
     width: 150px;
 }
 
+.newsType a{
+    cursor:pointer;
+}
+
 .newsList{
     width:80%;
     margin:0 auto;

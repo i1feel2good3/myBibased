@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="776edcea-5d8c-4138-a79e-8ccd333f4421" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/Model/HistoryModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/css/history.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/history.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/OrdersApplication.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/OrdersApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/impl/OrdersApplicationImpl.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/impl/OrdersApplicationImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserHistoryController.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserHistoryController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/News.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/News.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/css/myNews.css" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/css/myNews.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/css/userManage.css" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/css/userManage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/detailLetter.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/detailLetter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/detailLetter.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/detailLetter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/history.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/myInfo.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/myInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteVideo.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteVideo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/userManage.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/userManage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/bibased/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,38 +21,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="remoteReservation.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="235" column="31" lean-forward="true" selection-start-line="235" selection-start-column="31" selection-end-line="235" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remoteReservation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="227" column="33" lean-forward="true" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remoteReservation.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,6 +53,7 @@
       <find>empty</find>
       <find>table</find>
       <find>class=&quot;table&quot;</find>
+      <find>.table</find>
     </findStrings>
     <dirStrings>
       <dir>D:\intellij\Mybased\bibased\src\main\resources\static\img</dir>
@@ -149,9 +103,7 @@
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/detailLetter.js" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/News.java" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/myNews.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/detailLetter.html" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/myInfo.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteVideo.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/OrdersApplication.java" />
@@ -162,11 +114,13 @@
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/history.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/history.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/history.js" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/userManage.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/userManage.html" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/userManage.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/myNews.css" />
       </list>
     </option>
   </component>
@@ -210,8 +164,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -958,7 +912,8 @@
       <workItem from="1528100659717" duration="2242000" />
       <workItem from="1528110657779" duration="3233000" />
       <workItem from="1528158893053" duration="4544000" />
-      <workItem from="1528197476065" duration="6586000" />
+      <workItem from="1528197476065" duration="6674000" />
+      <workItem from="1528332163181" duration="2109000" />
     </task>
     <task id="LOCAL-00001" summary="远程医疗医生界面完成&#10;远程普通用户进行中&#10;5.22">
       <created>1526998796639</created>
@@ -988,11 +943,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527345722557</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="只剩远程视频，其他基本完成&#10;6.5晚上">
+      <created>1528207733881</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528207733881</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210539000" />
+    <option name="totallyTimeSpent" value="212736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1005,7 +967,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1030,8 +991,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37037036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27921093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2837633" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1054,7 +1015,8 @@
     <MESSAGE value="远程医疗模块完成&#10;消息模块进行中&#10;5.25" />
     <MESSAGE value="消息模块写信模块完成&#10;消息模块展示模块进行中&#10;5.26上午" />
     <MESSAGE value="消息模块展示模块完成&#10;未测试&#10;5.26晚上" />
-    <option name="LAST_COMMIT_MESSAGE" value="消息模块展示模块完成&#10;未测试&#10;5.26晚上" />
+    <MESSAGE value="只剩远程视频，其他基本完成&#10;6.5晚上" />
+    <option name="LAST_COMMIT_MESSAGE" value="只剩远程视频，其他基本完成&#10;6.5晚上" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1301,27 +1263,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/myNews.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/support/AjaxResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1353,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,10 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
           <caret line="65" column="48" lean-forward="false" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
-          <folding>
-            <marker date="1528203266179" expanded="true" signature="1961:1967" ph="&amp;nbsp;" />
-            <marker date="1528203266179" expanded="true" signature="1967:1973" ph="&amp;nbsp;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1388,15 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/userManage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,24 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-735">
           <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <marker date="1527389520147" expanded="true" signature="983:989" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="990:996" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="2749:2755" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="2756:2762" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="4484:4490" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="4491:4497" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="4497:4503" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="4503:4509" ph="&amp;nbsp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/userManage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1429,30 +1342,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/userManage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+        <state relative-caret-position="284">
+          <caret line="151" column="11" lean-forward="false" selection-start-line="151" selection-start-column="11" selection-end-line="151" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="42" column="79" lean-forward="true" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/myNews.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="227" column="33" lean-forward="true" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
+        <state relative-caret-position="116">
+          <caret line="226" column="20" lean-forward="true" selection-start-line="226" selection-start-column="20" selection-end-line="226" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="235" column="31" lean-forward="true" selection-start-line="235" selection-start-column="31" selection-end-line="235" selection-end-column="31" />
+        <state relative-caret-position="279">
+          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/userManage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
         </state>
       </provider>

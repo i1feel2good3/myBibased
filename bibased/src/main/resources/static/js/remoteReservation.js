@@ -108,7 +108,8 @@ $(function () {
     $("#changePlan").click(function () {
         document.getElementById("andPlan").className = "btn btn-default";
         document.getElementById("changePlan").className = "btn btn-primary";
-        $(".table tr:not(:first)").empty("");
+        /*$(".table tr:not(:first)").empty("");*/
+        $("#changeTable tr:not(:first)").empty("");
         $.ajax({
             type:"get",
             dataType:"json",
@@ -121,6 +122,7 @@ $(function () {
                 $("#changePlanDiv").show();
                 var data = result.data;
                 if (data == ""){
+                    $("#changePlanDiv input").hide();
                     var remind = "<p>您还没有可以修改的计划，请先添加计划！</p>"
                     $(".table").append(remind)
                 }

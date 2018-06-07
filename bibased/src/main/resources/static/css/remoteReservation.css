@@ -148,6 +148,8 @@ li{
 .table{
 
     margin: 0 auto;
+    position: relative;
+    top: -50px;
 }
 #openDiv{
     width:20%;
@@ -181,4 +183,24 @@ li{
     position: absolute;
     top: 130px;
     left: 146px;
+}
+
+#changePlanDiv{
+    width:80%;
+    margin: 0 auto;
+}
+
+#changePlanDiv input{
+    BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: solid;
+    text-align:center;
+    border-color: floralwhite;
+    width: 215px;
+}
+
+.table td{
+    width: 100px;
+}
+
+.table tr{
+
 }
