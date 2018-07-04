@@ -7,7 +7,7 @@ $(function () {
         url:"/bibased/personal/roleInfo",
         success:function (result) {
             if (result.code == 1){
-                alert(result.msg);
+                //alert(result.msg);
 
                 var data = result.data;
                 $('#id').val(data.id);

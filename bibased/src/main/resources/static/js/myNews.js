@@ -129,7 +129,7 @@ function letterDetails(newsId) {
                 localStorage.setItem("toUserId",data.toUserId);
                 localStorage.setItem("newsTheme",data.newsTheme);
                 localStorage.setItem("newsContent",data.newsContent);
-                alert(localStorage.getItem("fromUserId"));
+                //alert(localStorage.getItem("fromUserId"));
                 window.open("/bibased/news/detailLetter");
             }else {
                 alert(result.msg);

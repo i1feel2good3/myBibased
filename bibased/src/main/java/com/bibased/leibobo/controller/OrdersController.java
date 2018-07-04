@@ -59,9 +59,11 @@ public class OrdersController {
 	public AjaxResponse andOrder(@RequestBody OneOrder oneOrder, HttpSession session){
 		if (session.getAttribute(WebSecurityConfig.SESSION_KEY) != null){
 			IdAndRole idAndRole = (IdAndRole) session.getAttribute(WebSecurityConfig.SESSION_KEY);
-
+			System.out.println(oneOrder.getPlanDoctorId());
 			PlanDoctor planDoctor = planDoctorApplication.getDoctorPlanById(oneOrder.getPlanDoctorId());
-			Orders order = new Orders(idAndRole.getUserId(),planDoctor.getDoctorId(),planDoctor.getId(),oneOrder.orderTime);
+			System.out.println(planDoctor.getDoctorId());
+			System.out.println(oneOrder.getOrderTime());
+			Orders order = new Orders(idAndRole.getUserId(),planDoctor.getDoctorId(),planDoctor.getId(),oneOrder.getOrderTime());
 			ordersApplication.saveOrder(order);
 
 			String newPlan = planDoctor.changePlan(oneOrder.getSetZeroNum()).getDoctorPlan();

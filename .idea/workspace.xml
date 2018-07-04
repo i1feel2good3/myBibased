@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="776edcea-5d8c-4138-a79e-8ccd333f4421" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteDiagnosisController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteVideoController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteDiagnosis.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteVideo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/diagnosisVideo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteDiagnosis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteDiagnosis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/OrdersApplication.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/OrdersApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/impl/OrdersApplicationImpl.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/impl/OrdersApplicationImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/OrdersController.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/OrdersController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/DiagnosisDesc.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/DiagnosisDesc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/DiagnosisDescType.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/DiagnosisDescType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/Orders.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/Orders.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/repository/OrdersRepository.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/repository/OrdersRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/history.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/myInfo.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/myInfo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteVideoController.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteVideoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserManageController.java" afterPath="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserManageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/bibased/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/index.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/myInfo.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/myInfo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteDiagnosis.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteDiagnosis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/static/js/userManage.js" afterPath="$PROJECT_DIR$/bibased/src/main/resources/static/js/userManage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteDiagnosis.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteDiagnosis.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteVideo.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteVideo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibased/src/main/resources/templates/userManage.html" afterPath="$PROJECT_DIR$/bibased/src/main/resources/templates/userManage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/bibased/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,21 +30,60 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="myNews.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2751">
+              <caret line="131" column="18" lean-forward="false" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+              <folding>
+                <marker date="1528976492935" expanded="true" signature="983:989" ph="&amp;nbsp;" />
+                <marker date="1528976492935" expanded="true" signature="990:996" ph="&amp;nbsp;" />
+                <marker date="1528976492935" expanded="true" signature="2749:2755" ph="&amp;nbsp;" />
+                <marker date="1528976492935" expanded="true" signature="2756:2762" ph="&amp;nbsp;" />
+                <marker date="1528976492935" expanded="true" signature="4484:4490" ph="&amp;nbsp;" />
+                <marker date="1528976492935" expanded="true" signature="4491:4497" ph="&amp;nbsp;" />
+                <marker date="1528976492935" expanded="true" signature="4497:4503" ph="&amp;nbsp;" />
+                <marker date="1528976492935" expanded="true" signature="4503:4509" ph="&amp;nbsp;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OrdersController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/OrdersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="2184">
+              <caret line="124" column="64" lean-forward="false" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoteVideoController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteVideoController.java">
+      <file leaf-file-name="RemoteReservationController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteReservationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="-42">
+              <caret line="132" column="14" lean-forward="true" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remoteReservation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9429">
+              <caret line="449" column="41" lean-forward="false" selection-start-line="449" selection-start-column="41" selection-end-line="449" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -63,31 +92,21 @@
       <file leaf-file-name="remoteReservation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
-              <caret line="38" column="75" lean-forward="false" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+            <state relative-caret-position="3003">
+              <caret line="143" column="34" lean-forward="false" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="remoteDiagnosis.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteDiagnosis.js">
+      <file leaf-file-name="userManage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/userManage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            <state relative-caret-position="1113">
+              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding>
-                <marker date="1528376994603" expanded="true" signature="966:983" ph="..." />
+                <marker date="1528976055248" expanded="true" signature="503:520" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remoteReservation.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -125,6 +144,13 @@
       <find>table</find>
       <find>class=&quot;table&quot;</find>
       <find>.table</find>
+      <find>openMAfternoon</find>
+      <find>$(&quot;.diagnosis&quot;).hide();</find>
+      <find>getYourOrder</find>
+      <find>allert</find>
+      <find>alert</find>
+      <find>and</find>
+      <find>andOrder</find>
     </findStrings>
     <dirStrings>
       <dir>D:\intellij\Mybased\bibased\src\main\resources\static\img</dir>
@@ -141,11 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/repository/PlanDoctorRepository.java" />
-        <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/PlanDoctor.java" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/news.html" />
-        <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/Model/newsSaveModel.java" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/newsWrite.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/Model/NewsSaveModel.java" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/NewsWriteController.java" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserHistoryCotroller.java" />
@@ -156,7 +177,6 @@
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/newsWrite.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/newsWrite.js" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/NewsLookController.java" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/detailLetter.js" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/News.java" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/detailLetter.html" />
@@ -166,17 +186,14 @@
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/history.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/history.js" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/userManage.css" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/myNews.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/diagnosisDesc.js" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/diagnosisDesc.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/diagnosisVideo.js" />
-        <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteVideoController.java" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/diagnosisDesc.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/history.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/myInfo.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/userManage.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteVideo.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteVideo.html" />
@@ -186,12 +203,21 @@
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/Orders.java" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/OrdersApplication.java" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/impl/OrdersApplicationImpl.java" />
-        <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteDiagnosis.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/repository/OrdersRepository.java" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteDiagnosis.css" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteReservation.css" />
-        <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/OrdersController.java" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html" />
+        <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserManageController.java" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/index.js" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/myInfo.js" />
+        <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteVideoController.java" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/templates/remoteDiagnosis.html" />
         <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteDiagnosis.js" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/userManage.js" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js" />
+        <option value="$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/OrdersController.java" />
+        <option value="$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js" />
       </list>
     </option>
   </component>
@@ -236,8 +262,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -379,6 +405,10 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -462,7 +492,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leibobo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,7 +582,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="support" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leibobo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leibobo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leibobo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bibased" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="leibobo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -981,7 +1169,16 @@
       <workItem from="1528158893053" duration="4544000" />
       <workItem from="1528197476065" duration="6674000" />
       <workItem from="1528332163181" duration="6314000" />
-      <workItem from="1528351695206" duration="15910000" />
+      <workItem from="1528351695206" duration="16612000" />
+      <workItem from="1528437808672" duration="1680000" />
+      <workItem from="1528440486863" duration="2011000" />
+      <workItem from="1528460025375" duration="1486000" />
+      <workItem from="1528550123811" duration="2427000" />
+      <workItem from="1528877515915" duration="700000" />
+      <workItem from="1528892988993" duration="1440000" />
+      <workItem from="1528944784180" duration="499000" />
+      <workItem from="1528951469423" duration="13372000" />
+      <workItem from="1530711337632" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="远程医疗医生界面完成&#10;远程普通用户进行中&#10;5.22">
       <created>1526998796639</created>
@@ -1025,11 +1222,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528334347079</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="远程视频部分完成&#10;6.7晚上">
+      <created>1528377608539</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528377608539</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232851000" />
+    <option name="totallyTimeSpent" value="257770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1051,7 +1255,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6969697" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41750842" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1059,16 +1263,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39730638" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="PrintInConsole" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39730638" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2053872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24658574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2822458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1076,6 +1279,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1093,7 +1297,8 @@
     <MESSAGE value="消息模块展示模块完成&#10;未测试&#10;5.26晚上" />
     <MESSAGE value="只剩远程视频，其他基本完成&#10;6.5晚上" />
     <MESSAGE value="完善除远程视频外所有功能，已完善&#10;6.7上午" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善除远程视频外所有功能，已完善&#10;6.7上午" />
+    <MESSAGE value="远程视频部分完成&#10;6.7晚上" />
+    <option name="LAST_COMMIT_MESSAGE" value="远程视频部分完成&#10;6.7晚上" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,207 +1311,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/PlanDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/PlanDoctorApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/impl/PlanDoctorApplicationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/newsWrite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserDoctorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/myInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserSuperController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/history.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="65" column="48" lean-forward="false" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserHistoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="72" column="17" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/history.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/userManage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/myNews.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/userManage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/NewsLookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/eclipse/jdk/src.zip!/com/sun/org/apache/xerces/internal/util/ErrorHandlerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="37" column="75" lean-forward="false" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/myInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="53" column="75" lean-forward="false" selection-start-line="53" selection-start-column="75" selection-end-line="53" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/userManage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" column="75" lean-forward="false" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/myNews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="37" column="79" lean-forward="false" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteVideo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteDiagnosisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/DiagnosisDesc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#1178#1179#0" expanded="false" />
-            <element signature="e#1234#1235#0" expanded="false" />
-            <element signature="e#1271#1272#0" expanded="false" />
-            <element signature="e#1330#1331#0" expanded="false" />
-            <element signature="e#1363#1364#0" expanded="false" />
-            <element signature="e#1382#1383#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,15 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteVideo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,7 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="31" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1338,7 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,32 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/diagnosisVideo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="123" column="47" lean-forward="false" selection-start-line="123" selection-start-column="47" selection-end-line="123" selection-end-column="47" />
-          <folding>
-            <marker date="1527389520147" expanded="true" signature="983:989" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="990:996" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="2749:2755" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="2756:2762" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="4484:4490" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="4491:4497" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="4497:4503" ph="&amp;nbsp;" />
-            <marker date="1527389520147" expanded="true" signature="4503:4509" ph="&amp;nbsp;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1379,7 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1387,7 +1357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1395,15 +1364,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteReservationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="81" column="47" lean-forward="true" selection-start-line="81" selection-start-column="47" selection-end-line="81" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1411,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,10 +1378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1430,7 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1438,25 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/Model/IdAndRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteDiagnosis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#label#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1464,15 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6704">
-          <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1480,7 +1406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="78" column="17" lean-forward="false" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1488,22 +1413,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/css/remoteVideo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteVideo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../m/repository/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/OrdersController.java">
+    <entry file="file://$PROJECT_DIR$/bibased/src/test/java/com/bibased/leibobo/repository/UserPatientRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html">
+    <entry file="file://$PROJECT_DIR$/bibased/src/test/java/com/bibased/leibobo/BiBasedApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserHistoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="116" column="65" lean-forward="true" selection-start-line="116" selection-start-column="65" selection-end-line="116" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserPatientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="52" column="68" lean-forward="true" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/UserDoctorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/userManage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
           <caret line="38" column="75" lean-forward="false" selection-start-line="38" selection-start-column="75" selection-end-line="38" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteDiagnosis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/Model/IdAndRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1511,18 +1543,152 @@
     <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteVideoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <caret line="27" column="56" lean-forward="true" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteDiagnosisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/detailLetter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/diagnosisVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/domain/support/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/myInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/newsWrite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteDiagnosis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="34" lean-forward="true" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="316">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/userManage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
           <folding>
-            <marker date="1528376994603" expanded="true" signature="966:983" ph="..." />
+            <marker date="1528976055248" expanded="true" signature="503:520" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/myNews.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2751">
+          <caret line="131" column="18" lean-forward="false" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
+          <folding>
+            <marker date="1528976492935" expanded="true" signature="983:989" ph="&amp;nbsp;" />
+            <marker date="1528976492935" expanded="true" signature="990:996" ph="&amp;nbsp;" />
+            <marker date="1528976492935" expanded="true" signature="2749:2755" ph="&amp;nbsp;" />
+            <marker date="1528976492935" expanded="true" signature="2756:2762" ph="&amp;nbsp;" />
+            <marker date="1528976492935" expanded="true" signature="4484:4490" ph="&amp;nbsp;" />
+            <marker date="1528976492935" expanded="true" signature="4491:4497" ph="&amp;nbsp;" />
+            <marker date="1528976492935" expanded="true" signature="4497:4503" ph="&amp;nbsp;" />
+            <marker date="1528976492935" expanded="true" signature="4503:4509" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/repository/PlanDoctorRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/impl/PlanDoctorApplicationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/application/PlanDoctorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/templates/remoteReservation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3003">
+          <caret line="143" column="34" lean-forward="false" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2184">
+          <caret line="124" column="64" lean-forward="false" selection-start-line="124" selection-start-column="64" selection-end-line="124" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/resources/static/js/remoteReservation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9429">
+          <caret line="449" column="41" lean-forward="false" selection-start-line="449" selection-start-column="41" selection-end-line="449" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bibased/src/main/java/com/bibased/leibobo/controller/RemoteReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="132" column="14" lean-forward="true" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

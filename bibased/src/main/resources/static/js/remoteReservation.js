@@ -9,7 +9,7 @@ $(function () {
         url:"/bibased/remote/getPlanTime",
         success:function (result) {
             if (result.code == 1){
-                alert(result.data);
+                //alert(result.data);
                 var data = result.data;
                 var userInfo = result.flag;
                 if (userInfo.roleCode == 1){
@@ -20,7 +20,7 @@ $(function () {
 
                 if (userInfo.roleCode == 2){
                     //初始化普通用户预约界面
-                    alert(userInfo.roleCode);
+                    //alert(userInfo.roleCode);
                     $("#remoteDoctor").hide();
                     $("#reservableDoc").hide();
                     var item;
@@ -85,7 +85,7 @@ $(function () {
             contentType:"application/json;charset=utf-8",
             success:function (result) {
                 if (result.code == 1){
-                    alert(result.msg);
+                    //alert(result.msg);
                     window.location.reload();
                 }else {
                     alert("请重新提交，本次提交无效");
@@ -189,6 +189,8 @@ function change(id) {
         var afternoon = $("#openAfternoon").val();
         changePlan["id"] = id;
         changePlan["docPlan"] = morning.concat(afternoon);
+        //alert(morning);
+        //alert(afternoon);
         $.ajax({
             type:"post",
             url:"/bibased/remote/change",
@@ -199,6 +201,7 @@ function change(id) {
                 if (result.code == 1){
                     alert("修改成功！");
                     $("#openDiv").hide();
+                    window.location.reload();
                 }else {
                     alert(result.msg);
                     window.location.reload();
@@ -439,7 +442,10 @@ function order(info,remainOrderNum) {
     var col = info.substr(0,1);
     var row = info.substr(2,1);
     var time = info.substr(4,10);
-    var planDoctorId = info.substr(15,1);
+    //var planDoctorId = info.substr(15,1);
+    var planDoctorId = info.slice(15);
+    alert(info);
+    alert(planDoctorId);
     var setZeroNum;
     if (row == 1 && remainOrderNum == 2){
         setZeroNum = 1;

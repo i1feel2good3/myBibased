@@ -1,5 +1,6 @@
 package com.bibased.leibobo.controller;
 
+import com.bibased.leibobo.Model.IdAndRole;
 import com.bibased.leibobo.application.UserDoctorApplication;
 import com.bibased.leibobo.application.UserPatientApplication;
 import com.bibased.leibobo.application.UserSuperApplication;
@@ -45,10 +46,11 @@ public class UserManageController {
 	@RequestMapping(value = "/userManager/super",method = RequestMethod.GET)
 	public AjaxResponse querySuper(HttpSession session){
 		if (session.getAttribute(WebSecurityConfig.SESSION_KEY) != null){
+			IdAndRole idAndRole = (IdAndRole) session.getAttribute(WebSecurityConfig.SESSION_KEY);
 			List<UserSuper> allSupers;
 			allSupers = userSuperApplication.findAllUserSuper();
 			allSupers = allSupers.stream().filter(x -> x.getUserRole().getCode() == 0).collect(Collectors.toList());
-			return AjaxResponse.succss(allSupers);
+			return AjaxResponse.successed(allSupers,idAndRole.getRoleCode());
 		}else {
 			return AjaxResponse.failure("请登录");
 		}

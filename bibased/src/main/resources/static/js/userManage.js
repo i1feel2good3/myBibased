@@ -10,8 +10,16 @@ $(function () {
         success:function (result) {
             document.cookie = "count = 1";
             if (result.code == 1){
-                alert(result.msg);
+                //alert(result.msg);
                 var data = result.data;
+                var roleCode = result.flag;
+                if (roleCode == 2){
+                    var superItem = "<p style='margin-top: 200px'>您没有权限，请移步！</p>"
+                    $('.body').append(superItem);
+                    $('.role-navigation').hide();
+                    $('.roleData').hide();
+                    return 0;
+                }
                 var item;
                 $.each(data,function (i,users) {
                     item=
@@ -43,7 +51,7 @@ $(function () {
             url:"/bibased/userManager/super",
             success:function (result) {
                 if (result.code == 1){
-                    alert(result.msg);
+                    //alert(result.msg);
                     var data = result.data;
                     var item;
                     $.each(data,function (i,users) {
@@ -77,7 +85,7 @@ $(function () {
             url:"/bibased/userManager/doctor",
             success:function (result) {
                 if (result.code == 1){
-                    alert(result.msg);
+                    //alert(result.msg);
                     var data = result.data;
                     var item;
                     $.each(data,function (i,users) {
@@ -111,7 +119,7 @@ $(function () {
             url:"/bibased/userManager/patient",
             success:function (result) {
                 if (result.code == 1){
-                    alert(result.msg);
+                    //alert(result.msg);
                     var data = result.data;
                     var item;
                     $.each(data,function (i,users) {

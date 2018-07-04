@@ -34,9 +34,9 @@ $(function () {
             contentType:"application/json;charset=utf-8",
             success:function (result) {
                 if (result.code == 1){
-                    alert(result.msg);
+                    //alert(result.msg);
                     var data = result.data;
-                    alert(data.id);
+                    //alert(data.id);
                     window.location.href="/bibased/personal/info";
                 }else {
                     alert(result.msg);
